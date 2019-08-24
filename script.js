@@ -21,7 +21,9 @@ if ($(location).attr('search') === '?lang=FR') {
 
 $(document).ready(function() {
     //animations progress bar
+    anim($("#bar-3il"));
     anim($("#bar-toeic"));
+    anim($("#bar-uqac"));
     anim($("#bar-python"));
     anim($("#bar-cpp"));
     anim($("#bar-java"));
