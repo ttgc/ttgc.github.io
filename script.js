@@ -36,51 +36,9 @@ $(document).ready(function() {
     anim($("#bar-mysql"));
     anim($("#bar-qt"));
     anim($("#bar-jquery"));
-
-    //Contact form
-    // $("#feedbackForm").submit(function(event) {
-    //     var url = 'https://discordapp.com/api/webhooks/502588410322747402/kbHPoiSDRvsSGVjjI5zqKAeD4Qawgw9OZLXSWo3jg0OlEjLx_hFswqDA_Aa-HtfdSzhH';
-    //     var data = {
-    //         content: `You have been contacted on your CV page by __**${$("#name").val()}**__\nEmail adress : __*${$("#email").val()}*__\n\n${$("#message").val()}`
-    //         /*embeds: [{
-    //             title: 'CV Contact Form',
-    //             description: 'You have been contacted on your CV page !',
-    //             url: `mailto:${$("#email").val()}`,
-    //             color: 255,
-    //             author: {
-    //                 name: $("#name").val(),
-    //                 url: `mailto:${$("#email").val()}`
-    //             },
-    //             fields: [{
-    //                 name: 'Email :',
-    //                 value: $("#email").val(),
-    //                 inline: true
-    //             }, {
-    //                 name: 'Message :',
-    //                 value: $("#message").val(),
-    //                 inline: true
-    //             }]
-    //         }]*/
-    //     }
-    //     var test = $.post(url,data,function(data,status) {
-    //         console.log(`Status ${status}\n\n${data}`);
-    //         alert("Message sent !");
-    //     })
-    //         .fail(function(error) {
-    //             console.log(`${error.responseText}`);
-    //         });
-    // });
-
-    //Download
-    /*$("#download").click(function(event) {
-        var printDoc = new jsPDF();
-        var specialElementHandlers = {
-            '#ignorePDF': function (element, renderer) {
-                return true;
-            }
-        };
-        printDoc.save('PIOT Thomas - CV.pdf');
-    });*/
+    anim($("#bar-dotnetcore"));
+    anim($("#bar-unity"));
+    anim($("#bar-unreal"));
 
     // Hide or Show sections
 
