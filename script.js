@@ -31,12 +31,16 @@ $(document).ready(function() {
     anim($("#bar-c"));
     anim($("#bar-csharp"));
     anim($("#bar-php"));
+    anim($("#bar-js"));
     anim($("#bar-postgre"));
     anim($("#bar-oracle"));
     anim($("#bar-mysql"));
     anim($("#bar-qt"));
     anim($("#bar-jquery"));
     anim($("#bar-dotnetcore"));
+    anim($("#bar-wpf"));
+    anim($("#bar-avalonia"));
+    anim($("#bar-electron"));
     anim($("#bar-unity"));
     anim($("#bar-unreal"));
 
